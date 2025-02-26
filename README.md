@@ -49,8 +49,8 @@ Ensure you have the following installed:
 ### Backend Setup
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/babysteps-appointment-system.git
-   cd babysteps-appointment-system/backend
+   git clone https://github.com/keerthanachowdary21/babysteps.git
+   cd babysteps/backend
    ```
 2. Install dependencies:
    ```sh
@@ -99,7 +99,7 @@ Ensure you have the following installed:
 ## Assumptions & Design Decisions
 - **No User Authentication:** The system does not require user login.
 - **Fixed Interval Appointments:** Appointments start every 30 minutes.
-- **Uniform Working Hours:** Doctors have the same working hours every day.
+- **Uniform Working Hours:** Doctors have the same daily working hours.
 - **Error Handling:** API responses include detailed error messages.
 
 ---
